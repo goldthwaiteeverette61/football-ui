@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@gitee.com:chenlixiong/football-ui.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "ts"]
+	remote = origin
+	merge = refs/heads/ts
+	vscode-merge-base = origin/ts

@@ -1,0 +1,9 @@
+node_modules
+dist
+build
+.pnpm-store
+pnpm-store
+.vscode .idea *.sublime-project *.sublime-workspace
+*.tmp *.temp .cache
+coverage *.test.js *.spec.js
+logs .log npm-debug.logpnpm-debug.log*
